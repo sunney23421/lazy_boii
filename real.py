@@ -5,9 +5,11 @@ import random
 
 mouse = Controller()
 #mouse.position=(630, 814)
+#Set the mouse position over here
 i=1;
 
 def stronglyAgreee():
+    # This function has logi that will have a higher change to select on stronglyAgree
   randomThrToFive = random.randint(1,11);
   #randomThrToFive = 9;
   if (randomThrToFive==1):
@@ -72,15 +74,11 @@ def stronglyNever():
     mouse.position=(658, 747);time.sleep(0.25);mouse.click(Button.left,1)#;print (2)
   else:
     mouse.position=(565, 747);time.sleep(0.25);mouse.click(Button.left,1)#;print (1)
-  #print (randomThrToFive)
   time.sleep(0.5);
   mouse.scroll(0,-2.5)
   randomThrToFive = random.randint(1,11);
-#while i<20:
-    #stronglyDisagree()
-    
-    #mouse.scroll(0,2.5)
-    #i=i+1
+
+#After fine-turn, you can call funtion inorder to you google from
 
 stronglyAgreee()
 stronglyAgreee()
@@ -92,6 +90,7 @@ stronglyAgreee()
 stronglyAgreee()
 stronglyAgreee()
 stronglyAgreee();mouse.scroll(0,-2.58)#1######10
+#mouse.scroll is to make mouse scroll though the page
 
 while i<16:
     stronglyNever()

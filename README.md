@@ -2,7 +2,7 @@
 
 Python project
 
-I'm realy lazy to do a stupit work. So I just worte python script.
+I'm realy lazy to do a stupit work. So I just wrote python script.
 
 I have choice to spent 2 days to do give all question or whole week just write scrpit....
 Yep.. modern problems require modern solutions.:joy_cat::joy_cat:
